@@ -1,0 +1,48 @@
+.container1{
+    margin-top: 0;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.container-fluid{
+    width: 100%;
+}
+
+#dt{
+    text-align: center;
+}
+
+#fr{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.botones{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+
+
