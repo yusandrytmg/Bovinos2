@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>BOVINOS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style2.css">
+  <link rel="stylesheet" href="assets/css/styleForm.css">
+
+  <!-- =======================================================
+  * Template Name: Mentor
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">BOVINOS</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo me-auto"><img src="calavera1.jpeg" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="../index.html">Início</a></li>
+        
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#registro" class="get-started-btn">Registro</a>
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+<!-- -----------------------------------------------registro---------------------------------------------------------------------------------------------------- -->
+<!-- ======= Sección Registro ======= -->
+<section id="registro" class="contact">
+  <div class="container " data-aos="fade-up">
+    <div class="row mt-5">
+      <div class="col-lg-8 mt-5 mt-lg-0 mx-auto">
+        <div class="container1 " id="cambiar">
+          <div class="container mt-3 pt-3">
+            <h2 id="fr">Formulario</h2>
+            <center><h2>Ingrese sus datos</h2></center>
+            <form action="#" id="formulario">
+              <div class="mb-3 mt-3">
+                <label for="documento">Número de Documento</label>
+                <input type="text" class="form-control" id="cc" placeholder="Documento (10 Dígitos)" name="documento" required pattern="[0-9]{10}" maxlength="10">
+              </div>
+              <div class="mb-3 mt-3">
+                <label for="nombresapellidos">Nombres y Apellidos</label>
+                <input type="text" class="form-control" id="nombres" placeholder="Nombres y Apellidos" name="nombre" required>
+              </div>
+              <div class="mb-3 mt-3">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="rol">Función:</label>
+                <select name="" id="roles" required>
+                  <option value=""></option>
+                  <option value="Profesor">Comprador</option>
+                  <option value="Estudiante">Vendedor</option>
+                </select>
+              </div>
+              <div class=" botones d-flex justify-content-center mt-5">
+                <button type="submit" class="btn btn-warning" id="btnAgregar">Nuevo Usuario</button>
+                <button onclick="clearInformation();" type="submit" class="btn btn-success ms-5">Borrar Datos</button> 
+              </div><br>
+            </form>
+          </div> <br> <br>
+        </div>
+      </div> 
+    </div><br> <br>
+    <center>
+      <div class="div-listado">
+        <center><h2>DataSet de datos de usuarios registrados</h2></center>
+        <div class="div-empleados">
+        </div>
+      </div>
+    </center>
+  </div>
+</section><!-- End Sección Registro -->
+
+
+
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
